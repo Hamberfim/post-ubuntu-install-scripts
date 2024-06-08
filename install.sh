@@ -19,6 +19,3 @@ sudo apt upgrade && sudo apt upgrade -y
 # Revert idle and lock settings
 gsettings set org.gnome.desktop.screensaver lock-enabled false
 gsettings set org.gnome.desktop.session idle-delay 900
-
-# Logout to pickup changes
-gum confirm "Logout for settings to take effect?" && gnome-session-quit --logout --no-prompt
