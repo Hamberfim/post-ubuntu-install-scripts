@@ -6,6 +6,6 @@
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-sudo apt-get install build-essential -y
+sudo apt-get install -y build-essential
 
 brew install gcc
